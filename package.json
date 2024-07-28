@@ -2,13 +2,17 @@
   "name": "inception-ep1",
   "version": "1.0.0",
   "description": "Create React app from scratch",
-  "main": "App.js",
   "scripts": {
     "test": "jest"
   },
   "author": "Konika Sharma",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.12.0"
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   }
 }
